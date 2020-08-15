@@ -7,11 +7,11 @@ Desenvolver uma aplicação simples para controle de clientes seguindo os requis
 
 Desenvolva uma API seguindo o padrão RESTFul contendo rotas para:
 
-1.Consultar clientes
-2.Cadastrar novo cliente
-3.Consultar cliente por ID
-4.Editar cliente por ID
-5.Remover cliente
+- 1.Consultar clientes
+- 2.Cadastrar novo cliente
+- 3.Consultar cliente por ID
+- 4.Editar cliente por ID
+- 5.Remover cliente
 
 Os dados devem ser armazenados em uma base dados Mongodb.
 
