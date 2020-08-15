@@ -53,4 +53,7 @@ Para testar os endpoits é necessário algum programa que teste serviços RESTfu
 Obs: Para rodar a aplicação é necessário um arquivo com as credenciais do banco de dados que não se encontra nesse repositório.
 Entre em contato comigo
 
+## Gif dos endpoints
+
+![](gif/test.gif)
 
