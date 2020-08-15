@@ -30,6 +30,7 @@ Os dados devem ser armazenados em uma base dados Mongodb.
 - 3. cadastrar novo usuário
 - 4. atualizar usuário
 - 5. deletar usuário
+- 6.ts-node-dev
 
 ## Como rodar a aplicação 
 
@@ -45,7 +46,9 @@ Instale as dependências :
 ```npm install ```
 
 Execute a aplicação:
-```npm start ```
+```npm run start:dev ```
+
+Para testar os endpoits é necessário algum programa que teste serviços RESTful. Abaixo no gif está o postman
 
 Obs: Para rodar a aplicação é necessário um arquivo com as credenciais do banco de dados que não se encontra nesse repositório.
 Entre em contato comigo
