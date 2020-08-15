@@ -18,18 +18,18 @@ Os dados devem ser armazenados em uma base dados Mongodb.
 
 ### Principais tecnologias utilizadas:
 
-1.Typescript
-2.Express
-3.mongoose
-4.dotenv
+- 1.Typescript
+- 2.Express
+- 3.mongoose
+- 4.dotenv
 
 ### endpoints criados :
 
-1. visualizar todos clientes
-2. buscar cliente por id
-3. cadastrar novo usuário
-4. atualizar usuário
-5. deletar usuário
+- 1. visualizar todos clientes
+- 2. buscar cliente por id
+- 3. cadastrar novo usuário
+- 4. atualizar usuário
+- 5. deletar usuário
 
 ## Como rodar a aplicação 
 
