@@ -42,8 +42,6 @@ export class UserBusiness {
       throw new Error("email already registered in the database");
     }
 
-    await new UserDataBase().getUserByEmail(newUser);
-
     return await new UserDataBase().createUser(newUser);
   }
 
@@ -70,6 +68,7 @@ export class UserBusiness {
   async updateUserById(id: string, userData: InterfaceUserBusiness) {
     const verify = this.verifyUser;
     const updateUser = { ...userData, _id: id };
+
     verify.dataUser(userData);
     verify.name(userData);
     verify.phone(userData);

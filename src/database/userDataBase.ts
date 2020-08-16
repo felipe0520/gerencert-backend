@@ -1,7 +1,6 @@
 import { BaseDataBase } from "./baseDataBase";
 import User, { IUser } from "../model/user";
 import mongoose from "mongoose";
-import { InterfaceUserBusiness } from "../business/userBusiness";
 
 export class UserDataBase extends BaseDataBase {
   async getUsers() {

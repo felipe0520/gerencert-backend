@@ -10,11 +10,11 @@ export class UserController {
 
       res.status(200).send({ users: response });
 
-      new UserDataBase().destroyConnection();
+      await new UserDataBase().destroyConnection();
     } catch (error) {
       res.status(400).send({ message: error.message });
 
-      new UserDataBase().destroyConnection();
+      await new UserDataBase().destroyConnection();
     }
   }
 
@@ -39,7 +39,7 @@ export class UserController {
     } catch (error) {
       res.status(400).send({ message: error.message });
 
-      new UserDataBase().destroyConnection();
+      await new UserDataBase().destroyConnection();
     }
   }
 
@@ -50,8 +50,12 @@ export class UserController {
       );
 
       res.status(200).send(response);
+
+      await new UserDataBase().destroyConnection();
     } catch (error) {
       res.status(400).send(error.message);
+
+      await new UserDataBase().destroyConnection();
     }
   }
 
@@ -62,8 +66,12 @@ export class UserController {
       );
 
       res.status(200).send(response);
+
+      await new UserDataBase().destroyConnection();
     } catch (error) {
       res.status(400).send(error.message);
+
+      await new UserDataBase().destroyConnection();
     }
   }
 
@@ -90,11 +98,11 @@ export class UserController {
         .status(200)
         .send({ message: " User data updated successfully ", response });
 
-      new UserDataBase().destroyConnection();
+      await new UserDataBase().destroyConnection();
     } catch (error) {
       res.status(400).send({ message: error.message });
 
-      new UserDataBase().destroyConnection();
+      await new UserDataBase().destroyConnection();
     }
   }
 }
